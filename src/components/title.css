@@ -1,0 +1,152 @@
+h2.row-header{
+
+    outline: 0.5px solid white;
+    width: 450px;
+    color: rgb(255, 255, 255);
+    cursor: default;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 13.725px;
+    line-height: 17.85px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: left;
+  }
+  
+  a.row-title{
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(229, 229, 229);
+    cursor: pointer;
+    display: inline-block;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+    margin-bottom: 6px;
+    margin-left: 42px;
+    margin-right: 42px;
+    margin-top: 0px;
+    min-width: 77px;
+    text-decoration: rgb(229, 229, 229);
+    text-decoration-color: rgb(229, 229, 229);
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    text-decoration-thickness: auto;
+    margin-top: 7px;
+  }
+  
+  div.row-header-title{
+    color: rgb(229, 229, 229);
+    cursor: pointer;
+    display: table-cell;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 15.0667px;
+    font-weight: 700;
+    line-height: 13px;
+    vertical-align: bottom;
+    -moz-osx-font-smoothing: grayscale
+  }
+  
+  div.row-header-hidden{
+    color: rgb(229, 229, 229);
+    cursor: pointer;
+    display: table-cell;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16.7833px;
+    vertical-align: bottom;
+  }
+  
+  div.explore-all{
+    color: rgb(229, 229, 229);
+    cursor: pointer;
+    display: inline-block;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 9px;
+    font-weight: 700;
+    line-height: 8.6px;
+    margin-right: 4px;
+    max-width: 0px;
+    opacity: 0;
+    transition-delay: 0s, 0s, 0s, 0s, 0s, 0s;
+    transition-duration: 1s, 1s, 0.75s, 0.75s, 0.75s, 0.75s;
+    transition-property: max-width, opacity, transform, transform, transform, -o-transform;
+    transition-timing-function: ease, ease, ease, ease, ease, ease;
+    vertical-align: bottom;
+    white-space: nowrap;
+    -moz-osx-font-smoothing: grayscale
+  }
+  
+  div.arrow-right{
+    color: rgb(229, 229, 229);
+    cursor: pointer;
+    display: none;
+    font-size: 9.68333px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 9.68333px;
+    text-transform: none;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    transition-delay: 0s, 0s, 0s, 0s;
+    transition-duration: 0.75s, 0.75s, 0.75s, 0.75s;
+    transition-property: transform, transform, transform, -o-transform;
+    transition-timing-function: ease, ease, ease, ease;
+    vertical-align: bottom;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: system-ui;
+  }
+  
+  div.arrow-right-icon::before {
+    content:"\203A";
+  }
+  
+  /* hover states */
+  
+  a.row-title:focus .arrow-right, a.row-title:hover .arrow-right {
+    display: inline-block;
+    font-size: .9vw;
+    vertical-align: bottom;
+  }
+  
+  a.row-title:focus .arrow-right, a.row-title:hover .arrow-right {
+    font-size: .9vw;
+  }
+  
+  a.row-title:hover {
+    color: #fff;
+  }
+  
+  a.row-title:hover .row-header-hidden .explore-all {
+    max-width: 200px;
+    -webkit-transform: translate(1vw,0);
+    -moz-transform: translate(1vw,0);
+    -ms-transform: translate(1vw,0);
+    -o-transform: translate(1vw,0);
+    transform: translate(1vw,0);
+    opacity: 1;
+  }
+  
+  a.row-title:hover .row-header-hidden .arrow-right {
+    -webkit-transform: translate(1vw,0);
+    -moz-transform: translate(1vw,0);
+    -ms-transform: translate(1vw,0);
+    -o-transform: translate(1vw,0);
+    transform: translate(1vw,0);
+    font-size: 14px !important;
+    line-height: 10px !important;
+  }
+  
+  h2.row-header:hover a.row-title .arrow-right {
+    display: inline-block;
+    font-size: .9vw;
+    vertical-align: bottom;
+    font-size: 19px;
+    line-height: 12px;
+  }
+  
+  .spacer{
+    height: 50px;
+  }
